@@ -40,6 +40,10 @@ input{
     color: #c5d1a5;
 }
 
+tamanho{
+    width: 100px;
+}
+
 .video-card {
     text-align: left;
     margin: 30px;

@@ -77,17 +77,18 @@ export default function Cadastro(){
 
             {video.map((ativ)=>
             <ul key={ativ.id}>
-                <div class="video-card">
+                <div class="card" style={{width: "18rem;"}}>
                 <p class="video-card-p">{ativ.link}</p>
-               <Link to={`/detalhe/${ativ.id}`}>
-                    <p class="video-card-p">{ativ.titulo}</p>
-               </Link>
-                <p class="video-card-p">{ativ.artista}</p>
-                <p class="video-card-p">{ativ.letra}</p>
-                <p class="video-card-p">{ativ.vizualizacao}</p>
+                    <div class="card-body">
+                <Link to={`/detalhe/${ativ.id}`}>
+                        <p class="video-card-p">{ativ.titulo}</p>
+                </Link>
+                    <p class="video-card-p">{ativ.artista}</p>
+                    <p class="video-card-p">{ativ.letra}</p>
+                    <p class="video-card-p">{ativ.vizualizacao}</p>
+                    </div>
                 </div>
             </ul>)}
-        </div>
-       
+        </div> 
      );
 }
