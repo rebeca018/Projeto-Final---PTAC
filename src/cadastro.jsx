@@ -49,7 +49,7 @@ export default function Cadastro(){
 
             <form onSubmit={salvar} class="forms">
 
-            <div class="card" style={{width: "18rem;"}}>
+            <div class="card tamanho">
                 <div class="card-body">
                     <h5 class="card-title">Cadastre nova música</h5>
                     <div class="mb-3">

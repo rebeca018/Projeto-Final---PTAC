@@ -21,7 +21,7 @@ body, html, #root{
 }
 
 .forms{
-    width: 700px;
+    width: 900px;
     justify-content: center;
     align-items: center;
     color: #aa93c0;
@@ -41,7 +41,7 @@ input{
 }
 
 tamanho{
-    width: 100px;
+    width: 18rem;
 }
 
 .video-card {
