@@ -1,0 +1,68 @@
+body, html, #root{
+    margin: 0;
+    padding: 0;
+    background-color: #344960;
+}
+
+.texto-home{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #C0A293;
+}
+
+.color{
+    background-color: #C0A293;
+    color: #344960;
+}
+
+.color_b{
+    color: #344960;
+}
+
+.video{
+    margin-top: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #344960;
+    text-align: center;
+}
+
+input{
+    border-radius: 10px;
+    color: #C0A293;
+}
+
+.video-card {
+    text-align: left;
+    margin: 30px;
+    background-color: #C0A293;
+    border: 5px solid #C0A293;
+    display:inline-block;
+    overflow: hidden;
+    height: 350px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.video-card-p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;    
+    text-overflow: ellipsis;
+    color:black;
+}
+
+.video-card-p:hover {
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;
+    white-space: normal;
+}
+
+.botao{
+    background-color: #C0A293;
+    color: #344960;
+}
+
