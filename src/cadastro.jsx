@@ -80,9 +80,7 @@ export default function Cadastro(){
             <ul key={ativ.id}>
                 <div class="video-card">
                 <p class="video-card-p">{ativ.link}</p>
-               <Link to={`/detalhe/${ativ.id}`}>
-                    <p class="video-card-p">{ativ.titulo}</p>
-               </Link>
+                <p class="video-card-p">{ativ.titulo}</p>
                 <p class="video-card-p">{ativ.artista}</p>
                 <p class="video-card-p">{ativ.letra}</p>
                 <p class="video-card-p">{ativ.vizualizacao}</p>
