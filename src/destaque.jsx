@@ -6,6 +6,11 @@ export default function Destaque() {
     <div class="home">
         <Header/>
 
+        {lista.slice(-4).map((musica)=>
+         <Card musica={musica}/>
+      )}
+     
+
       <h3 class="texto-home">Destaque</h3>
       <Footer/>
     </div>
