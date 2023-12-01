@@ -15,7 +15,7 @@ export default function Header() {
               </li>
 
               <li class="nav-item">
-                <a class="nav-link active, color_b" aria-current="page" href="#" >  Em destaque </a>
+                <a class="nav-link active, color_b" aria-current="page" href="#" > <Link to="/destaque"> Em destaque </Link></a>
               </li>
 
               <Link to="/cadastro">
