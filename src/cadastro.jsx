@@ -16,7 +16,7 @@ export default function Cadastro(){
    const [vizualizacao, setVizualizacao] = useState("");
    const [video, setVideo] = useState(videoLocalStorage);
    const [id, setId] = useState(videoLocalStorage[videoLocalStorage.length - 1]?.id +1 || 1);
-   //pegando o tamanho da lista menos 1 para pegar o id e somando 1 para arrumar o id
+
 
    useEffect(() => { localStorage.setItem("Video", JSON.stringify(video)) }, [video]);
 
@@ -66,10 +66,10 @@ export default function Cadastro(){
                         <input value={letra} type="text" onChange={(e)=>{ setLetra(e.target.value)}} class="form-control" id="formGroupExampleInput4" placeholder="Letra"/>
                     </div>
                     <div class="mb-3">
-                        <input value={vizualizacao} type="text" onChange={(e)=>{ setVizualizacao(e.target.value)}} class="form-control" id="formGroupExampleInput5" placeholder="VIzualizações"/>
+                        <input value={vizualizacao} type="text" onChange={(e)=>{ setVizualizacao(e.target.value)}} class="form-control" id="formGroupExampleInput5" placeholder="Vizualizações"/>
                     </div>
                     
-                    <a href="#" class="btn btn-secondary">Cadastrar</a>
+                    <a href="#" class="btn btn-secondary"><button>Cadastrar</button></a>
                 </div>
             </div>
 
