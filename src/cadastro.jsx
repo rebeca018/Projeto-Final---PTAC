@@ -35,7 +35,7 @@ export default function Cadastro(){
         setTitulo("");
         setArtista("");
         setLetra("");
-        setvizualizacao("");
+        setVizualizacao("");
    };
 
     

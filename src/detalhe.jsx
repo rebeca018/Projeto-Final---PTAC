@@ -6,7 +6,7 @@ export default function Detalhe(){
    const video = JSON.parse(localStorage.getItem("Video"));
    console.log(lista);
 
-    const musica = lista.filter((objeto) => {
+    const musica = video.filter((objeto) => {
          if(objeto.id == id){
             return objeto;
          }
