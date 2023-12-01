@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div class="home">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary, color">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary, color-nav">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"> Mes chansons préférées </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

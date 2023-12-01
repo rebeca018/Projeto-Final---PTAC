@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Header from './Componentes/Header'
 import "./style.css";
+import Footer from "./Componentes/Footer";
 
 export default function Cadastro(){
 
@@ -87,6 +88,7 @@ export default function Cadastro(){
                 <p class="video-card-p">{ativ.vizualizacao}</p>
                 </div>
             </ul>)}
+            <Footer/>
         </div>
        
      );

@@ -1,11 +1,27 @@
-import { Link } from "react-router-dom";
-import Header from './Componentes/Header'
-export default function Destaque() {
-  return (
-    <div class="home">
-        <Header/>
+import { useParams } from "react-router-dom"
+import Header from "./Componentes/Header";
+import Card from "./Componentes/Card";
+import Footer from "./Componentes/Footer";
 
-      <h3 class="texto-home">Destaque</h3>
-    </div>
-  );
+export default function Detalhe(){
+   const { id } = useParams();
+   const video = JSON.parse(localStorage.getItem("Video"));
+   console.log(video);
+
+    const musica = video.filter((objeto) => {
+         if(objeto.id == id){
+            return objeto;
+         }
+         return null;
+    })
+
+    console.log(musica[0]);
+
+    return(
+      <div>
+        <Header/>
+        <Card musica={musica[0]} />
+        <Footer/>
+      </div>
+    );
 }

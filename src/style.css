@@ -11,9 +11,12 @@ body, html, #root{
     color: #899761;
 }
 
-.color{
+.color-nav{
     background-color: #c5d1a5;
     color: #aa93c0;
+}
+.color-footer{
+    color:#304b32;
 }
 
 .color_b{
@@ -75,6 +78,6 @@ tamanho{
 }
 
 .botao{
-    background-color: #C0A293;
+    background-color: #c5d1a5;
     color: #d1b4ec;
 }
