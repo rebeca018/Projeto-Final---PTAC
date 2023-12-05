@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Header from './Componentes/Header'
 import Footer from './Componentes/Footer'
 import Card from './Componentes/Card'
-export default function Destaque() {
+export default function Detalhe() {
   const lista = JSON.parse(localStorage.getItem("Video")) || [];
 
   return (
@@ -14,7 +14,7 @@ export default function Destaque() {
         )}
      
 
-      <h3 class="texto-home">Destaque</h3>
+      <h3 class="texto-home">Detalhe</h3>
       <Footer/>
     </div>
   );
