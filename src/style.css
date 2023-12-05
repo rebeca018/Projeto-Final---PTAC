@@ -39,6 +39,12 @@ body, html, #root{
     background-color: #aa93c0;
 }
 
+.cadastro{
+    justify-content: center;
+    margin: 5px 10px 15px 30px ;
+}
+
+
 input{
     border-radius: 10px;
     color: #c5d1a5;
@@ -49,6 +55,7 @@ input{
 }
 
 .video-card {
+    justify-content: center;
     text-align: left;
     margin: 30px;
     background-color: #c5d1a5;
@@ -56,7 +63,7 @@ input{
     display:inline-block;
     overflow: hidden;
     height: 350px;
-    width: 250px;
+    width: 350px;
     border-radius: 10px;
 }
 
@@ -82,3 +89,4 @@ input{
     background-color: #c5d1a5;
     color: #d1b4ec;
 }
+

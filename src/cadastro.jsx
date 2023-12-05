@@ -50,7 +50,7 @@ export default function Cadastro(){
 
             <form onSubmit={salvar} class="forms">
 
-            <div class="card">
+            <div class="card cadastro">
                 <div class="card-body">
                     <h5 class="card-title">Cadastre nova música</h5>
                     <div class="mb-3">
@@ -79,7 +79,7 @@ export default function Cadastro(){
             {video.map((ativ)=>
             <ul key={ativ.id}>
                 <div class="video-card">
-                <p class="video-card-p">{ativ.link}</p>
+                    <iframe src={'https://www.youtube.com/embed/' + musica.link.slice(17) } frameborder="0"></iframe>
                 <p class="video-card-p">{ativ.titulo}</p>
                 <p class="video-card-p">{ativ.artista}</p>
                 <p class="video-card-p">{ativ.letra}</p>
