@@ -9,10 +9,9 @@ export default function Detalhe() {
     <div class="home">
         <Header/>
 
-        {lista.slice(-4).map((musica)=>
+        {lista.map((musica)=>
          <Card musica={musica}/>
         )}
-     
 
       <h3 class="texto-home">Detalhe</h3>
       <Footer/>
