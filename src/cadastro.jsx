@@ -76,16 +76,6 @@ export default function Cadastro(){
               
             </form>
 
-            {video.map((ativ)=>
-            <ul key={ativ.id}>
-                <div class="video-card">
-                    <iframe src={'https://www.youtube.com/embed/' + ativ.link.slice(17) } frameborder="0"></iframe>
-                <p class="video-card-p">{ativ.titulo}</p>
-                <p class="video-card-p">{ativ.artista}</p>
-                <p class="video-card-p">{ativ.letra}</p>
-                <p class="video-card-p">{ativ.vizualizacao}</p>
-                </div>
-            </ul>)}
             <Footer/>
         </div>
        
