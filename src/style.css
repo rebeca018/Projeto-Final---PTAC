@@ -32,10 +32,11 @@ body, html, #root{
 }
 
 .video{
+    text-align: center;
+    justify-content: center;
     margin-top: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aa93c0;
-    text-align: center;
 }
 
 input{

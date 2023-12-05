@@ -50,7 +50,7 @@ export default function Cadastro(){
 
             <form onSubmit={salvar} class="forms">
 
-            <div class="card tamanho">
+            <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Cadastre nova música</h5>
                     <div class="mb-3">
@@ -69,7 +69,7 @@ export default function Cadastro(){
                         <input value={vizualizacao} type="text" onChange={(e)=>{ setVizualizacao(e.target.value)}} class="form-control" id="formGroupExampleInput5" placeholder="Vizualizações"/>
                     </div>
                     
-                    <a href="#" class="btn btn-secondary"><button>Cadastrar</button></a>
+                    <button class="btn btn-secondary">Cadastrar</button>
                 </div>
             </div>
 
