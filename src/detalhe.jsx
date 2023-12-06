@@ -16,7 +16,7 @@ export default function Detalhe() {
     return null;
   })
 
-  console.log(muscia[0]);
+  console.log(musica[0]);
 
   return (
     <div class="home">

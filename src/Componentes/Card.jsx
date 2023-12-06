@@ -6,7 +6,9 @@ export default function Card({musica}){
                 height="240"
                 src= {'https://www.youtube.com/embed/' + musica.link.slice(17) }
                 frameborder="0"></iframe>
+            <Link to={`/detalhe/${musica.id}`}>
             <h5 class="card-title">{musica.titulo}</h5>
+            </Link>
             <br />
             <h6 class="video-card-p">{musica.artista}</h6>
             <h6 class="video-card-p">{musica.vizualização}</h6>
