@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function Card({musica}){
     return(
-        <div class="video-card">
+        <div class="video-card-detalhe">
             <iframe 
                 width="353"
                 height="240"

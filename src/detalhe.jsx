@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom"
-import { Link } from "react-router-dom";
 import Header from './Componentes/Header'
 import Footer from './Componentes/Footer'
 import Card from './Componentes/Card'

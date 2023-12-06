@@ -65,6 +65,7 @@ input{
     height: 300px;
     width: 350px;
     border-radius: 10px;
+    color:black;
 }
 
 .video-card-p {
@@ -83,6 +84,33 @@ input{
     margin: 0;
     font-size: 18px;
     white-space: normal;
+}
+
+.video-card-detalhe{
+    text-align: left;
+    margin: 30px;
+    background-color: #c5d1a5;
+    border: 5px solid #c5d1a5;
+    display:inline-block;
+    overflow: hidden;
+    height: 340px;
+    width: 550px;
+    border-radius: 10px;
+    display: flex;
+  
+}
+
+.card-a{
+    margin-top: 90px;
+    height: 156px;
+    width: 150px;
+    
+}
+
+.card-b{
+    height: 340px;
+    width: 430px;
+    
 }
 
 .botao{
