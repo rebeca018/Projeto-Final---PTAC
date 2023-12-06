@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom"
 import Header from './Componentes/Header'
 import Footer from './Componentes/Footer'
-import Card from './Componentes/Card'
+import CardDetalhe from './Componentes/CardDetalhe'
 
 export default function Detalhe() {
   const { id } = useParams();
@@ -21,7 +21,7 @@ export default function Detalhe() {
     <div class="home">
         <Header/>
 
-        <Card musica={musica[0]} />
+        <CardDetalhe musica={musica[0]} />
       <h3 class="texto-home">Detalhe</h3>
       <Footer/>
     </div>

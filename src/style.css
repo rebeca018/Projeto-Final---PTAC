@@ -2,6 +2,7 @@ body, html, #root{
     margin: 0;
     padding: 0;
     background-color: #aa93c0;
+    text-align: center;
 }
 
 
@@ -87,23 +88,25 @@ input{
 }
 
 .video-card-detalhe{
+    justify-content:  center;
     text-align: left;
     margin: 30px;
     background-color: #c5d1a5;
     border: 5px solid #c5d1a5;
     display:inline-block;
     overflow: hidden;
-    height: 340px;
-    width: 550px;
+    overflow-y: scroll;
+    height: 600px;
+    width: 860px;
     border-radius: 10px;
     display: flex;
   
 }
 
 .card-a{
-    margin-top: 90px;
+    margin-top: 150px;
     height: 156px;
-    width: 150px;
+    width: 370px;
     
 }
 
@@ -113,6 +116,14 @@ input{
     
 }
 
+.video-card-p-detalhe{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    margin: 0;
+    font-size: 18px;   
+    word-break: normal;
+    color: inherit;
+}
 .botao{
     background-color: #c5d1a5;
     color: #d1b4ec;

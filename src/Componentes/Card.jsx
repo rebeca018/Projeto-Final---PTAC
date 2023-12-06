@@ -12,9 +12,6 @@ export default function Card({musica}){
                 <h5 class="card-title">{musica.titulo}</h5>
             </Link>
             <br />
-            <h6 class="video-card-p">{musica.artista}</h6>
-            <h6 class="video-card-p">{musica.vizualização}</h6>
-            <h6 class="video-card-p">{musica.letra}</h6>
    
         </div>
            
