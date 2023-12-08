@@ -65,10 +65,10 @@ export default function Cadastro(){
                         <input value={artista} type="text" onChange={(e)=>{ setArtista(e.target.value)}} class="form-control" id="formGroupExampleInput3" placeholder="Artista"/>
                     </div>
                     <div class="mb-3">
-                        <input value={letra} type="text" onChange={(e)=>{ setLetra(e.target.value)}} class="form-control" id="formGroupExampleInput4" placeholder="Letra"/>
+                        <input value={vizualizacao} type="text" onChange={(e)=>{ setVizualizacao(e.target.value)}} class="form-control" id="formGroupExampleInput4" placeholder="Vizualizações"/>
                     </div>
                     <div class="mb-3">
-                        <input value={vizualizacao} type="text" onChange={(e)=>{ setVizualizacao(e.target.value)}} class="form-control" id="formGroupExampleInput5" placeholder="Vizualizações"/>
+                        <input value={letra} type="text" onChange={(e)=>{ setLetra(e.target.value)}} class="form-control" id="formGroupExampleInput5" placeholder="Letra"/>
                     </div>
                     
                     <button class="btn btn-secondary">Cadastrar</button>
