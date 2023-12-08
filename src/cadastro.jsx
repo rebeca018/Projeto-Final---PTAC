@@ -46,11 +46,11 @@ export default function Cadastro(){
 
         
         
-        <div class="video, centro">
+        <div class="video">
             <Header/>
             <br />
 
-            <form onSubmit={salvar} class="forms">
+            <form onSubmit={salvar} class="forms, centro">
 
             <div class="card cadastro">
                 <div class="card-body">

@@ -18,11 +18,13 @@ export default function Detalhe() {
   console.log(musica[0]);
 
   return (
-    <div class="centro">
+    <div>
         <Header/>
 
-        <CardDetalhe musica={musica[0]} />
-      <h3 class="texto-home">Detalhe</h3>
+      <div class="centro">
+          <CardDetalhe musica={musica[0]} />
+        <h3 class="texto-home">Detalhe</h3>
+      </div>
       <Footer/>
     </div>
   );

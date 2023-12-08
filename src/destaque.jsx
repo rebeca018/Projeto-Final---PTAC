@@ -6,9 +6,9 @@ export default function Destaque() {
   const lista = JSON.parse(localStorage.getItem("Video")) || [];
 
   return (
-    <div class="centro">
+    <div>
         <Header/>
-
+        
         <h3 class="texto-home">Músicas em destaque</h3>
         {lista.slice(-4).map((musica)=>
          <Card musica={musica}/>
