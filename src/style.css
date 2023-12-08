@@ -5,6 +5,9 @@ body, html, #root{
     text-align: center;
 }
 
+.centro{
+    justify-content: center;
+}
 
 .texto-home{
     text-align: center;
@@ -89,9 +92,9 @@ input{
 
 .underline{
     border-bottom: 2px solid currentColor;
-  display: inline-block;
-  line-height: 0.85;
-  color: #aa93c0;
+    display: inline-block;
+    line-height: 0.85;
+    color: #aa93c0;
 }
 
 .video-card-detalhe{

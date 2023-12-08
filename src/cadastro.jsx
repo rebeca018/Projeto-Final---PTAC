@@ -46,7 +46,7 @@ export default function Cadastro(){
 
         
         
-        <div class="video">
+        <div class="video, centro">
             <Header/>
             <br />
 

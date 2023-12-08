@@ -13,7 +13,7 @@ export default function Card({musica}){
 
             <div class="card-b">
                 <Link to={`/detalhe/${musica.id}`}>
-                    <h5 class="card-title">{musica.titulo}</h5>
+                    <h5 class="card-title underline">{musica.titulo}</h5>
                 </Link>
                 <br />
                 <h6 class="video-card-p-detlahe">{musica.artista}</h6>

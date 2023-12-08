@@ -6,7 +6,7 @@ export default function Destaque() {
   const lista = JSON.parse(localStorage.getItem("Video")) || [];
 
   return (
-    <div class="home">
+    <div class="centro">
         <Header/>
 
         <h3 class="texto-home">Músicas em destaque</h3>

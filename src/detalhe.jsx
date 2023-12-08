@@ -18,7 +18,7 @@ export default function Detalhe() {
   console.log(musica[0]);
 
   return (
-    <div class="home">
+    <div class="centro">
         <Header/>
 
         <CardDetalhe musica={musica[0]} />
