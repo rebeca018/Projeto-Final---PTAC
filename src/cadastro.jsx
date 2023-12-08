@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Header from './Componentes/Header'
 import "./style.css";
 import Footer from "./Componentes/Footer";
@@ -20,10 +20,11 @@ export default function Cadastro(){
 
    useEffect(() => { localStorage.setItem("Video", JSON.stringify(video)) }, [video]);
 
+   const navigate = useNavigate();
 
-   const salvar = (e) => {
+   const salvar = async(e) => {
         e.preventDefault();
-        setVideo([...video, {
+        await setVideo([...video, {
             link: link,
             titulo: titulo,
             artista: artista,
@@ -32,6 +33,7 @@ export default function Cadastro(){
             id: id
         }]);
         setId(id + 1);
+        navigate("/");
         setLink("");
         setTitulo("");
         setArtista("");

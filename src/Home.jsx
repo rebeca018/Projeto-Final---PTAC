@@ -9,7 +9,7 @@ export default function Home() {
     <div class="home">
         <Header/>
 
-      <h3 class="texto-home">Home</h3>
+      <h3 class="texto-home">Minhas músicas favoritas</h3>
       {lista.map((musica)=>
          <Card musica={musica}/>
       )}

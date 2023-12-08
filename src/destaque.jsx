@@ -9,12 +9,11 @@ export default function Destaque() {
     <div class="home">
         <Header/>
 
+        <h3 class="texto-home">Músicas em destaque</h3>
         {lista.slice(-4).map((musica)=>
          <Card musica={musica}/>
         )}
      
-
-      <h3 class="texto-home">Destaque</h3>
       <Footer/>
     </div>
   );

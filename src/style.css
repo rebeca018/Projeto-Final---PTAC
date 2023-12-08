@@ -9,7 +9,7 @@ body, html, #root{
 .texto-home{
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: #899761;
+    color: #bfd18e;
 }
 
 .color-nav{
@@ -85,6 +85,13 @@ input{
     margin: 0;
     font-size: 18px;
     white-space: normal;
+}
+
+.underline{
+    border-bottom: 2px solid currentColor;
+  display: inline-block;
+  line-height: 0.85;
+  color: #aa93c0;
 }
 
 .video-card-detalhe{
