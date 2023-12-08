@@ -49,11 +49,11 @@ export default function Cadastro(){
         <div class="video">
             <Header/>
             <br />
-
-            <form onSubmit={salvar} class="forms, centro">
+            
+            <form onSubmit={salvar} class="forms">
 
             <div class="card cadastro">
-                <div class="card-body">
+                <div class="card-body ">
                     <h5 class="card-title">Cadastre nova música</h5>
                     <div class="mb-3">
                         <input value={link} type="text" onChange={(e)=>{ setLink(e.target.value)}} class="form-control" id="formGroupExampleInput" placeholder="Link"/>

@@ -23,9 +23,9 @@ export default function Detalhe() {
 
       <div class="centro">
           <CardDetalhe musica={musica[0]} />
-        <h3 class="texto-home">Detalhe</h3>
+          <Footer/>
       </div>
-      <Footer/>
+      
     </div>
   );
 }
